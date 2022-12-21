@@ -1,11 +1,9 @@
 import { Profile } from "./Profile/Profile";
-import user from '../data/user.json'
-
+import user from '../data/user'
 export const App = () => {
-  console.log(user)
   return (
   <div>
-<Profile profile={user[0]}/>
+<Profile profile={user}/>
   </div>
   );
 };
