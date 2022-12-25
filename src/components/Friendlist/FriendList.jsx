@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import cs from './Friendlist.style.css'
 
 export default function FriendList ({ friends }) {
