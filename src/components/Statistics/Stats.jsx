@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from "./statistic.style.css";
+import css from './Statistic.style.css';
 export default function Statistics({ title, stats }) {
     return (
         <section className={css.statistics}>
@@ -16,6 +16,7 @@ export default function Statistics({ title, stats }) {
         </ul>
       </section>
     );
+    
   }
   Statistics.propTypes = {
     title: PropTypes.string,
