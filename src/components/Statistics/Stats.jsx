@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './Statistic.style.css';
+import css from './Statistic.module.css';
 export default function Statistics({ title, stats }) {
     return (
         <section className={css.statistics}>
