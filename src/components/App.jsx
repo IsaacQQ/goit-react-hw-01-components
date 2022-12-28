@@ -14,6 +14,8 @@ import friends from '../data/friends.json'
 //FriendList
 
 //Transiction history
+import Transaction from "./Transaction/Transaction";
+import transactions from "../data/transactions.json"
 //Transiction history
 export function App() {
   return (
@@ -27,6 +29,7 @@ export function App() {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends}/>
+      <Transaction items={transactions}/>
     </>
   );
 }
