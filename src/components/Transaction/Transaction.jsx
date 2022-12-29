@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from './Transaction.module.css';
+import styles from './Transaction.module.css';
 
 const Transaction = ({ items }) => (
-  <table className={css.transaction}>
-    <thead className={css.box}>
+  <table className={styles.transaction}>
+    <thead className={styles.box}>
       <tr>
         <th>Type</th>
         <th>Amount</th>

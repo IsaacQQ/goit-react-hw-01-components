@@ -1,18 +1,18 @@
 import React from 'react';
-import css from './Friendlist.module.css'
+import styles from './Friendlist.module.css'
 
 export default function FriendList ({ friends }) {
     return(
-    <ul className={css.friend_list}>
+    <ul className={styles.friend_list}>
     {friends.map(friend => (
-      <li className={css.item} key={friend.id}>
+      <li className={styles.item} key={friend.id}>
         <span
           className={
-            friend.isOnline ? css.statusOnline : css.statusOffline
+            friend.isOnline ? styles.statusOnline : styles.statusOffline
           }
         ></span>
-        <img className={css.avatar} src={friend.avatar} alt="" width="48" />
-        <p className={css.name}>{friend.name}</p>
+        <img className={styles.avatar} src={friend.avatar} alt="" width="48" />
+        <p className={styles.name}>{friend.name}</p>
       </li>
     ))}
   </ul>)

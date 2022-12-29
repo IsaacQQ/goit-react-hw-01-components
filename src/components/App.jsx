@@ -4,7 +4,7 @@ import user from '../data/user.json'
 //profile
 
 //statistics
-import Statistics from "./Statistics/Stats";
+import Statistics from "./Statistics/Statistics";
 import data from '../data/data.json'
 //statistics
 
